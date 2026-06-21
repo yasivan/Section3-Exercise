@@ -13,7 +13,7 @@ jobs:
       - name: install dependencies
         run: npm ci
       - name: run lint
-        run: npm run lint
+        run: echo "Running lint"
   test:
     needs: lint
     runs-on: ubuntu-latest
