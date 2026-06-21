@@ -1,0 +1,5 @@
+Name: Print output
+on: issues
+jobs:
+  print_output:
+    runs-on: ubuntu-latest
