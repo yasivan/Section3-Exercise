@@ -1,4 +1,4 @@
-Name: Print output
+name: Print output
 on: issues
 jobs:
   print_output:
