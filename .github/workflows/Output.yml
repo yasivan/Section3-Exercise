@@ -3,3 +3,8 @@ on: issues
 jobs:
   print_output:
     runs-on: ubuntu-latest
+    steps:
+      - name: Print event output
+        run: echo "Event name is ${{ toJSON(github) }}"
+      - name: Print issue title
+        run: echo "Issue title is ${{ github.event.issue.title }}"
